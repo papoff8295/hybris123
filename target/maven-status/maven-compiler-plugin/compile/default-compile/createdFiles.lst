@@ -1,0 +1,11 @@
+com\hybris\hybris123\runtime\tests\HttpsHelper$1.class
+com\hybris\hybris123\runtime\tests\HttpsHelper.class
+com\hybris\hybris123\runtime\tests\InPlaceContents.class
+com\hybris\hybris123\runtime\tests\LogHelper.class
+com\hybris\hybris123\runtime\tests\CommandLineHelper.class
+com\hybris\hybris123\runtime\tests\VersionHelper.class
+com\hybris\hybris123\runtime\tests\HsqlDBHelper.class
+com\hybris\hybris123\runtime\tests\Hybris123Tests$SeleniumHelper.class
+com\hybris\hybris123\runtime\tests\FileHelper.class
+com\hybris\hybris123\runtime\tests\Hybris123Tests.class
+com\hybris\hybris123\runtime\tests\Snippet.class
