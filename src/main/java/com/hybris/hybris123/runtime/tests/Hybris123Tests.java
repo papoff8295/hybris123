@@ -988,7 +988,7 @@ SeleniumHelper.java */
     @Snippet("com.hybris.hybris123.Hybris123Tests_gitRepoOk")
     public void gitRepoOk() {
         CommandLineHelper shellCommands = new CommandLineHelper();
-        String output = shellCommands.runCmd("git --git-dir ../hybris/.git log");
+        String output = shellCommands.runCmd("git --git-dir .git log");
         assertTrue("Git Repo has not been set up correctly", output.contains("Set Up a Git Repository"));
     }
 
@@ -1442,7 +1442,7 @@ class CommandLineHelper {
     public static String runCmd(String cmd){
         String output = "";
         try {
-            if (!cmd.equals("git --git-dir ../hybris/.git log") &&
+            if (!cmd.equals("git --git-dir .git log") &&
                     !cmd.equals("mvn.cmd --version") &&
                     !cmd.equals("mvn --version") &&
                     !cmd.equals("git --version") )
